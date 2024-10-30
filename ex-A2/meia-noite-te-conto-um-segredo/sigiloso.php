@@ -1,10 +1,5 @@
 <?php
-session_start();
-if(!isset($_SESSION['logado']) || !$_SESSION['logado']){
-    echo 'você não tem direito de estar aqui!';
-    include 'index.php';
-    die();
-}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
